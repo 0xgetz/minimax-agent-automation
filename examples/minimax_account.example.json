@@ -1,0 +1,67 @@
+{
+  "site": "https://agent.minimax.io/",
+  "account": {
+    "email": "5ie22i0f@souss.dev",
+    "email_provider": "zenvex.dev",
+    "password": "ZenvexMiniMax2026!x",
+    "userName": "MiniMax000000",
+    "userID": "REDACTED_USER_ID",
+    "realUserID": "REDACTED_REAL_USER_ID",
+    "avatar": "https://agent-cdn.minimax.io/agent-admin/avatar/example.png"
+  },
+  "token_jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.<redacted-payload>.<redacted-signature>",
+  "token_jwt_payload": {
+    "exp": 1794216823,
+    "user": {
+      "id": "REDACTED_USER_ID",
+      "name": "example",
+      "deviceID": "",
+      "isAnonymous": false
+    }
+  },
+  "cookie_header": "_fbp=fb.1.<redacted>; _token=<redacted-jwt>; _sid=<redacted>; ...",
+  "cookies": [
+    {
+      "name": "_token",
+      "value": "<redacted-jwt>",
+      "domain": "agent.minimax.io",
+      "path": "/",
+      "expires": 1793352823,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_sid",
+      "value": "<redacted-session-id>",
+      "domain": "account.minimax.io",
+      "path": "/",
+      "expires": 1794216816,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "<redacted-akamai-cookie>",
+      "domain": ".minimax.io",
+      "path": "/",
+      "expires": 1790767853,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "localStorage": {
+    "_token": "<redacted-jwt>",
+    "UNIQUE_USER_ID": "00000000-0000-0000-0000-000000000000",
+    "mavis:biz:firstLaunchSeen": "1",
+    "user_detail_agent": "{\"userID\":\"REDACTED\",\"realUserID\":\"REDACTED\",\"userName\":\"MiniMax000000\",\"token\":\"<redacted-jwt>\"}"
+  },
+  "sessionStorage": {
+    "mavis:activeAgentId": "000000000000000",
+    "tab_device_id": "00000000"
+  },
+  "checkin": true,
+  "captured_at": 1790762452
+}

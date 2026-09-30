@@ -1,0 +1,38 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# Harvested credentials — NEVER commit real accounts
+minimax_accounts.jsonl
+accounts.jsonl
+*.jsonl
+!examples/*.jsonl
+examples/minimax_account.example.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
