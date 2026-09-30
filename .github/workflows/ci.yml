@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   lint:
@@ -15,7 +15,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
@@ -26,8 +26,8 @@ jobs:
       - name: Byte-compile
         run: python -m py_compile minimax_auto.py
 
-      - name: Lint with ruff
-        run: ruff check minimax_auto.py || true
+      - name: Lint
+        run: ruff check minimax_auto.py
 
       - name: CLI smoke test
         run: python minimax_auto.py --help
