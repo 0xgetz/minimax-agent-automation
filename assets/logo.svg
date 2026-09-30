@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="MiniMax Agent Automation logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b2233"/>
+      <stop offset="1" stop-color="#0b0d12"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7a5c"/>
+      <stop offset="0.5" stop-color="#ff5d5d"/>
+      <stop offset="1" stop-color="#ff3d7f"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7db4ff"/>
+      <stop offset="1" stop-color="#4f8cff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="6" y="6" width="500" height="500" rx="106" fill="none" stroke="#2a3348" stroke-width="3"/>
+
+  <!-- "M" monogram formed from two flame strokes -->
+  <g filter="url(#glow)">
+    <path d="M126 356 L126 190 Q126 160 156 176 L256 236 L356 176 Q386 160 386 190 L386 356"
+          fill="none" stroke="url(#flame)" stroke-width="34"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- automation bolt -->
+  <g transform="translate(300 292)">
+    <path d="M34 0 L0 76 L30 76 L14 138 L74 52 L40 52 Z"
+          fill="url(#bolt)" stroke="#0b0d12" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+
+  <!-- orbit dot -->
+  <circle cx="384" cy="150" r="12" fill="#39d98a"/>
+</svg>

@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="MiniMax Agent Automation" width="100%">
+
 # MiniMax Agent Automation
 
 **Registro automático de cuentas · check-in diario · extractor de JWT y cookies de sesión para [agent.minimax.io](https://agent.minimax.io/)**
@@ -144,6 +146,7 @@ minimax-agent-automation/
 ├── CONTRIBUTING.md
 ├── SECURITY.md
 ├── README.md  README.id.md  README.es.md  README.zh.md  README.ja.md
+├── assets/                             # logo + banner (SVG & PNG)
 └── examples/minimax_account.example.json
 ```
 

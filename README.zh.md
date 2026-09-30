@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="MiniMax Agent Automation" width="100%">
+
 # MiniMax Agent 自动化
 
 **自动注册账号 · 每日签到 · 提取 JWT 与 Session Cookie，适用于 [agent.minimax.io](https://agent.minimax.io/)**
@@ -141,6 +143,7 @@ minimax-agent-automation/
 ├── CONTRIBUTING.md
 ├── SECURITY.md
 ├── README.md  README.id.md  README.es.md  README.zh.md  README.ja.md
+├── assets/                             # logo + banner (SVG & PNG)
 └── examples/minimax_account.example.json
 ```
 
