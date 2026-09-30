@@ -6,7 +6,6 @@
 
 Didukung email sementara [Zenvex](https://zenvex.dev) + [Playwright](https://playwright.dev).
 
-[![CI](https://img.shields.io/badge/CI-GitHub_Actions-2088FF.svg?logo=githubactions&logoColor=white)](.github/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Playwright](https://img.shields.io/badge/Playwright-1.40%2B-2EAD33.svg?logo=playwright&logoColor=white)](https://playwright.dev)
@@ -145,7 +144,6 @@ minimax-agent-automation/
 ├── CONTRIBUTING.md
 ├── SECURITY.md
 ├── README.md  README.id.md  README.es.md  README.zh.md  README.ja.md
-├── .github/workflows/ci.yml
 └── examples/minimax_account.example.json
 ```
 
